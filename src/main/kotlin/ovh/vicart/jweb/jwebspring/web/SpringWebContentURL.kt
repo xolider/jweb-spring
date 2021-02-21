@@ -1,6 +1,7 @@
 package ovh.vicart.jweb.jwebspring.web
 
-import ovh.vicart.jweb.web.WebContentURL
+
+import ovh.vicart.jweb.jweb.web.WebContentURL
 import java.net.URL
 import javax.servlet.http.HttpServletRequest
 
