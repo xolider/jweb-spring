@@ -14,6 +14,7 @@ repositories {
     maven {
         url 'http://maven.vicart.ovh/repository/maven-snapshots'
     }
+    mavenLocal()
 }
 
 java {
@@ -23,7 +24,7 @@ java {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib"
-    api 'ovh.vicart.jweb:jweb:1.0-SNAPSHOT'
+    api 'ovh.vicart.jweb:jweb:1.0-20210222.183513-14'
     compileClasspath 'org.springframework.boot:spring-boot-starter-web:2.4.3'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
